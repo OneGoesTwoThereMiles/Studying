@@ -1,0 +1,21 @@
+{
+  "name": "studying",
+  "version": "1.0.0",
+  "description": "路漫漫其修远兮，吾将上下而求索。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
+    "d": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OneGoesTwoThereMiles/Studying.git"
+  },
+  "author": "一去二三里",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OneGoesTwoThereMiles/Studying/issues"
+  },
+  "homepage": "https://github.com/OneGoesTwoThereMiles/Studying#readme"
+}
