@@ -2,6 +2,7 @@ module.exports = {
   title: "一去二三里",
   description: 'A simple and beautiful vuepress blog theme .',
   dest: 'public',
+  base: '/Studying/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ["link", { rel: "manifest", href: "/manifest.json" }],
