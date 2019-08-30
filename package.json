@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "node ./builds/addComponents.js && vuepress build docs && node ./builds/delComponents.js",
-    "d": "bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "repository": {
     "type": "git",
@@ -17,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/OneGoesTwoThereMiles/Studying/issues"
   },
-  "homepage": "https://github.com/OneGoesTwoThereMiles/Studying#readme"
+  "homepage": "https://github.com/OneGoesTwoThereMiles/Studying#readme",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {
+      "vuepress": "1.0.3",
+      "vuepress-theme-reco": "1.0.4",
+      "@vuepress/plugin-pwa": "1.0.3",
+      "@vuepress/plugin-medium-zoom": "1.0.3",
+      "vuepress-plugin-flowchart": "1.4.3"
+  },
+  "keywords": []
 }
