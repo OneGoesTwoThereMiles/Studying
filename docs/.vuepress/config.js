@@ -11,9 +11,9 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/', icon: 'reco-home' },
-      { text: 'TimeLine', link: '/timeLine/', icon: 'reco-date' },
-      { text: 'Contact', 
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeLine/', icon: 'reco-date' },
+      { text: '联系', 
         icon: 'reco-message',
         items: [
           { text: 'WeChat', link: '', icon: 'reco-wechat' },
@@ -28,7 +28,7 @@ module.exports = {
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3
-        text: 'Tag' // 默认 “标签”
+        text: '标签' // 默认 “标签”
       }
     },
     logo: '/head.png',
@@ -42,7 +42,7 @@ module.exports = {
     // 作者
     author: 'oneGoesTwoThereMiles',
     // 备案号
-    record: 'xxxx',
+    record: '0901',
     // 项目开始时间
     startYear: '2019'
     /**
