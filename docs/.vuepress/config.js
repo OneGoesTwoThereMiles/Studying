@@ -1,6 +1,6 @@
 module.exports = {
   title: "一去二三里",
-  description: 'A simple and beautiful vuepress blog theme .',
+  description: '一去二三里，啥也不想哩！',
   base: '/Studying/',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -10,10 +10,11 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    type: 'blog',
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeLine/', icon: 'reco-date' },
-      { text: '联系', 
+      { text: '外链', 
         icon: 'reco-message',
         items: [
           { text: 'WeChat', link: '', icon: 'reco-wechat' },
@@ -24,7 +25,7 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2, // 在导航栏菜单中所占的位置，默认2
-        text: 'Category' // 默认 “分类”
+        text: '分类' // 默认 “分类”
       },
       tag: {
         location: 3, // 在导航栏菜单中所占的位置，默认3

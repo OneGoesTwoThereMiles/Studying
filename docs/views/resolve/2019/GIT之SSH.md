@@ -4,7 +4,7 @@ date: 2019-08-30
 tags:
  - Git
 categories:
- - reslove
+ - 绊脚石
 ---
 ## 1.出现Are you sure you want to continue connecting (yes/no)?时，选择yes
 
