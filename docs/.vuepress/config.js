@@ -13,7 +13,7 @@ module.exports = {
     type: 'blog',
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间线', link: '/timeLine/', icon: 'reco-date' },
+      { text: '时间', link: '/timeLine/', icon: 'reco-date' },
       { text: '外链', 
         icon: 'reco-message',
         items: [
