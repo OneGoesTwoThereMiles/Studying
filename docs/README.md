@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: /logo.jpg
-bgImage: '/logo.png'
+bgImage: '/logo.png/'
 bgImageStyle: {
   height: '350px'
 }
