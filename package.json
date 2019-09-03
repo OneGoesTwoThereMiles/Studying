@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OneGoesTwoThereMiles/Studying.git"
+    "url": "git+https://github.com/onetothere/Studying.git"
   },
   "author": "一去二三里",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/OneGoesTwoThereMiles/Studying/issues"
+    "url": "https://github.com/onetothere/Studying/issues"
   },
-  "homepage": "https://github.com/OneGoesTwoThereMiles/Studying#readme",
+  "homepage": "https://github.com/onetothere/Studying#readme",
   "directories": {
     "doc": "docs"
   },
